@@ -11,8 +11,24 @@ header {
     height: 900px;
 }
 
+nav {
+    background-color: rgba(0, 0, 0, 0.504);
+    text-align: right;
+}
+
 nav li {
     display: inline;
-    text-align: right;
     color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+}
+
+#fofo {
+    background-color: rgba(220, 220, 220, 0.250);
+    color: white;
+    text-align: center;
 }
