@@ -22,17 +22,63 @@
     font-weight: 800;
 }
 
+@font-face {
+    font-family: "OpenSans";
+    src: url(./font/OpenSans-ExtraBoldItalic.ttf);
+    font-style: italic;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url(./font/OpenSans-Italic.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url(./font/OpenSans-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url(./font/OpenSans-LightItalic.ttf);
+    font-style: italic;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url(./font/OpenSans-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url(./font/OpenSans-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url(./font/OpenSans-SemiBoldItalic.ttf);
+    font-style: italic;
+    font-weight: bold;
+}
+
 body {
-    width: 100%;
     margin: auto;
+    width: 100%;
 }
 
 header {
     background-image: url("./images/header.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 100%;
     height: 900px;
+    width: 100%;
 }
 
 nav {
@@ -41,22 +87,24 @@ nav {
 }
 
 nav img {
+    margin-right: 315px;
     padding-left: 360px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-right: 315px;
 }
 
 nav ul {
-    display: flex;
     color: white;
+    display: flex;
     margin: 0;
 }
 
 nav li {
     list-style-type: none;
     justify-content: space-between;
+    font-family: "OpenSans";
     font-size: 1em;
+    font-weight: bold;
     line-height: 80px;
     text-align: center;
     text-transform: uppercase;
@@ -64,14 +112,37 @@ nav li {
     margin: 0;
 }
 
+nav li:hover {
+    background-color: #d31f44ff;
+}
+
 h1 {
-    text-align: center;
     color: white;
-    padding-top: 200px;
+    font-family: "OpenSans";
+    font-size: 3em;
+    padding-top: 280px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 #fofo {
     background-color: rgba(255, 255, 255, 0.15);
     color: white;
+    margin-left: 700px;
+    margin-right: 700px;
+    font-family: "OpenSans";
     text-align: center;
+}
+
+#button1 {
+    background-color: #d31f44ff;
+    border: 1px black;
+    color: white;
+    font-family: "OpenSans";
+    font-size: 18px;
+    text-align: center;
+    margin-left: 880px;
+    margin-right: 820px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
