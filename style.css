@@ -1,3 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url(./font/OpenSans-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url(./font/OpenSans-BoldItalic.ttf);
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url(./font/OpenSans-ExtraBold.ttf);
+    font-weight: 800;
+}
+
 body {
     width: 100%;
     margin: auto;
@@ -13,12 +37,31 @@ header {
 
 nav {
     background-color: rgba(0, 0, 0, 0.504);
-    text-align: right;
+    display: flex;
+}
+
+nav img {
+    padding-left: 360px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 315px;
+}
+
+nav ul {
+    display: flex;
+    color: white;
+    margin: 0;
 }
 
 nav li {
-    display: inline;
-    color: white;
+    list-style-type: none;
+    justify-content: space-between;
+    font-size: 1em;
+    line-height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 144px;
+    margin: 0;
 }
 
 h1 {
@@ -28,7 +71,7 @@ h1 {
 }
 
 #fofo {
-    background-color: rgba(220, 220, 220, 0.250);
+    background-color: rgba(255, 255, 255, 0.15);
     color: white;
     text-align: center;
 }
