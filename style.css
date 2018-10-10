@@ -72,7 +72,7 @@ body {
     margin: auto;
     width: 100%;
 }
-
+/* Menu Nav, full header CSS */
 header {
     background-image: url("./images/header.png");
     background-repeat: no-repeat;
@@ -128,9 +128,11 @@ h1 {
 #fofo {
     background-color: rgba(255, 255, 255, 0.15);
     color: white;
-    margin-left: 700px;
-    margin-right: 700px;
+    margin-left: 400px;
+    margin-right: 400px;
     font-family: "OpenSans";
+    font-size: 2.2em;
+    font-weight: 300;
     text-align: center;
 }
 
@@ -140,9 +142,26 @@ h1 {
     color: white;
     font-family: "OpenSans";
     font-size: 18px;
-    text-align: center;
     margin-left: 880px;
     margin-right: 820px;
+    margin-top: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
+    text-align: center;
+}
+/* First block CSS, this is the next ! */
+h2 {
+    font-family: "OpenSans";
+    font-size: 1.8em;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#n1 {
+    background-color: #d31f44fe;
+    background-image: linear-gradient(to left, white, #d31f44fe);
+    border: none;
+    height: 3px;;
+    margin-right: 875px;
+    margin-left: 880px;
 }
