@@ -113,7 +113,7 @@ nav li {
 }
 
 nav li:hover {
-    background-color: #d31f44ff;
+    background-color: #d31f44;
 }
 
 h1 {
@@ -137,7 +137,7 @@ h1 {
 }
 
 #button1 {
-    background-color: #d31f44ff;
+    background-color: #d31f44;
     border: 1px black;
     color: white;
     font-family: "OpenSans";
@@ -160,6 +160,156 @@ h2 {
 #n1 {
     background-color: #d31f44fe;
     background-image: linear-gradient(to left, white, #d31f44fe);
+    border: none;
+    height: 3px;;
+    margin-right: 875px;
+    margin-left: 880px;
+    margin-top: 20px;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.text {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    height: 400px;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    font-family: "OpenSans";
+    font-size: 0.8em;
+    margin-left: 320px;
+    margin-right: -50px;
+    text-align: right;
+    width: 450px;
+}
+
+.text1 p {
+    padding-bottom: 30px;
+}
+
+
+#imgt {
+    display: block;
+    margin-top: 70px;
+}
+
+.text2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-self: center;
+    font-family: "OpenSans";
+    font-size: 0.8em;
+    text-align: left;
+    margin-right: 260px;
+    margin-left: 0;
+    width: 450px;
+}
+
+.text2 p {
+    margin-top: -30px;
+    margin-left: -50px;
+}
+
+.text2 ul {
+    margin-top: 30px;
+    margin-left: -30px;
+    line-height: 20px;
+    list-style: none;
+}
+
+.text2 li::before {
+    content: "\2022";
+    color: #d31f44;
+    display: inline-block;
+    font-size: 30px;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* The 2nd block, hard try to style this ! */
+.block2 {
+    background-image: url("./images/bg2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    width: 100%;
+    height: 440px;
+}
+
+#n2 {
+    background-color: #f7e49a;
+    background-image: linear-gradient(to left, white, #f7e49a);
+    border: none;
+    height: 3px;;
+    margin-right: 875px;
+    margin-left: 880px;
+    margin-top: 20px;
+}
+
+#pinky1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-self: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 100px;
+}
+
+.theory {
+    width: 250px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.codage {
+    width: 250px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.ressources {
+    width: 250px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.savoirs {
+    width: 250px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.formation {
+    width: 250px;
+    text-align: center;
+    line-height: 30px;
+}
+
+/* And now, let's go for the 3rd block ! */
+.block3 {
+    background-color: #3e3e3e;
+    color: white;
+    font-family: "OpenSans";
+    height: 650px;
+    margin-top: 0;
+    padding-top: 5px;
+
+}
+
+#n3 {
+    background-color: #ffdd55;
+    background-image: linear-gradient(to left, white, #ffdd55);
     border: none;
     height: 3px;;
     margin-right: 875px;
