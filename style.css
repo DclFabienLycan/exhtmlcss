@@ -386,14 +386,17 @@ h2 {
 #titrepro {
     background-image: url(./images/titpro.png);
     height: 300px;
+    width: auto;
 }
 
 #titrepro p {
     color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
     text-align: center;
     font-family: "OpenSans";
-    font-size: 50px;
-    padding: auto;
-    margin: auto;
-    width: 1400px;
+    font-weight: 300;
+    font-size: 30px;
 }
