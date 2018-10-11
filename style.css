@@ -179,6 +179,7 @@ h2 {
     justify-content: space-around;
     align-self: center;
     height: 400px;
+    margin-bottom: -50px;
 }
 
 .text1 {
@@ -237,6 +238,7 @@ h2 {
 }
 
 /* The 2nd block, hard try to style this ! */
+/* Background + underline title */
 .block2 {
     background-image: url("./images/bg2.png");
     background-repeat: no-repeat;
@@ -255,7 +257,7 @@ h2 {
     margin-left: 880px;
     margin-top: 20px;
 }
-
+/* moving all text, without title */
 #pinky1 {
     display: flex;
     justify-content: space-between;
@@ -265,7 +267,7 @@ h2 {
     margin-right: 100px;
     padding-top: 100px;
 }
-
+/* all div one by one */
 .theory {
     width: 250px;
     text-align: center;
@@ -297,6 +299,7 @@ h2 {
 }
 
 /* And now, let's go for the 3rd block ! */
+/* background and underline */
 .block3 {
     background-color: #3e3e3e;
     color: white;
@@ -307,11 +310,90 @@ h2 {
 
 }
 
+.didi {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-self: center;
+}
+
 #n3 {
     background-color: #ffdd55;
     background-image: linear-gradient(to left, white, #ffdd55);
     border: none;
     height: 3px;;
-    margin-right: 875px;
-    margin-left: 880px;
+    margin-right: 1500px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+#t2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 250px;
+}
+
+.metier {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    line-height: 25px;
+    width: 650px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.metier p {
+    padding-bottom: 30px;
+}
+
+#vid {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    margin-top: 50px;
+    margin-left: -100px;
+}
+
+#button2 button {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: "Opensans";
+    font-weight: 300;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+}
+
+#button2 {
+    padding-right: 450px;
+}
+
+#button2 button:hover {
+    background-color: #d31f44;
+}
+/* Go to the 4th block */
+/* Hmm, start with the title ? */
+.block4 {
+    background-color: white;
+    height: 450px;
+}
+
+#titrepro {
+    background-image: url(./images/titpro.png);
+    height: 300px;
+}
+
+#titrepro p {
+    color: white;
+    text-align: center;
+    font-family: "OpenSans";
+    font-size: 50px;
+    padding: auto;
+    margin: auto;
+    width: 1400px;
 }
