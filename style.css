@@ -158,7 +158,6 @@ h2 {
 }
 
 #n1 {
-    background-color: #d31f44fe;
     background-image: linear-gradient(to left, white, #d31f44fe);
     border: none;
     height: 3px;;
@@ -249,8 +248,7 @@ h2 {
 }
 
 #n2 {
-    background-color: #f7e49a;
-    background-image: linear-gradient(to left, white, #f7e49a);
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), white);
     border: none;
     height: 3px;;
     margin-right: 875px;
@@ -318,8 +316,7 @@ h2 {
 }
 
 #n3 {
-    background-color: #ffdd55;
-    background-image: linear-gradient(to left, white, #ffdd55);
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), white);
     border: none;
     height: 3px;;
     margin-right: 1500px;
@@ -383,6 +380,25 @@ h2 {
     height: 450px;
 }
 
+#n4 {
+    background-image: linear-gradient(to left, white, #d31f44ff);
+    border: none;
+    height: 3px;;
+    margin-right: 910px;
+    margin-left: 790px;
+    margin-top: 20px;
+}
+
+#imgproj {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    margin-left: 350px;
+    margin-top: 40px;
+}
+
+/* The 5th block */
 #titrepro {
     background-image: url(./images/titpro.png);
     height: 300px;
